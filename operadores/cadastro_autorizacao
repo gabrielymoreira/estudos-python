@@ -1,0 +1,11 @@
+autorizacao = input("Há autorização para receber contato?")
+telefone_cadastrado = input("Há um telefone cadastrado?")
+
+if autorizacao == "sim" and telefone_cadastrado == "sim":
+    print("Contato liberado")
+else:
+    print("Contato não liberado")
+
+# Ex1 - Contato autorizado - simples
+# Situação: A plataforma possui um cadastro de apoiadores. Antes de liberar uma abordagem, o sistema precisa confirmar duas informações: se a pessoa autorizou receber contato e se existe um telefone cadastrado.
+# Sua tarefa: Escreva um programa que leia essas duas informações e informe se o contato pode ou não ser realizado.
